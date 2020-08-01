@@ -5,7 +5,7 @@ import requests from "./request"
 import Banner from "./Banner.js"
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Banner/>
       <Row isLargeRow={true} title="NETFLIX ORIGINALS" fetchURL={requests.fetchNetflixOriginals}/>
       <Row isLargeRow={false} title="Trending Now" fetchURL={requests.fetchTrending}/>
