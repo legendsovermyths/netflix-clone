@@ -3,9 +3,11 @@ import Row from './Row'
 import "./App.css"
 import requests from "./request"
 import Banner from "./Banner.js"
+import Nav from "./Navbar"
 function App() {
   return (
     <div className="app">
+      <Nav/>
       <Banner/>
       <Row isLargeRow={true} title="NETFLIX ORIGINALS" fetchURL={requests.fetchNetflixOriginals}/>
       <Row isLargeRow={false} title="Trending Now" fetchURL={requests.fetchTrending}/>
