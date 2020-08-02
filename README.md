@@ -1,5 +1,5 @@
 This is clone of Netflix web UI/UX made on react. You can checkout the app here:
-https://netflix-clone-5966a.web.app/
+https://netflix-clone-fe0c4.web.app/
 ## Available Scripts
 
 In the project directory, you can run:
